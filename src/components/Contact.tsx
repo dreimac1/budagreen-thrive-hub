@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Users } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -31,7 +31,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p className="text-muted-foreground">+234 (0) 123 456 7890</p>
+                    <p className="text-muted-foreground">07039605097</p>
+                    <p className="text-muted-foreground">09025490266</p>
                   </div>
                 </div>
                 
@@ -51,7 +52,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold">Address</h3>
-                    <p className="text-muted-foreground">123 Business District, Lagos, Nigeria</p>
+                    <p className="text-muted-foreground">Starcade Shopping Mall No 4, 2nd Floor</p>
+                    <p className="text-muted-foreground">Kachina Road Sabo, Kaduna</p>
                   </div>
                 </div>
                 
@@ -63,6 +65,74 @@ const Contact = () => {
                     <h3 className="font-semibold">Business Hours</h3>
                     <p className="text-muted-foreground">Mon - Fri: 9:00 AM - 6:00 PM</p>
                     <p className="text-muted-foreground text-sm">Sat: 10:00 AM - 4:00 PM</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+              <CardHeader>
+                <CardTitle className="text-2xl">Management Team</CardTitle>
+                <CardDescription>Meet our experienced leadership team</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">CEO/MD</p>
+                    <p className="text-muted-foreground text-sm">BUJI ELISHA SAMAILA</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">COO/Acting HR</p>
+                    <p className="text-muted-foreground text-sm">NDAROT BUJI SAMAILA</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">Business Manager</p>
+                    <p className="text-muted-foreground text-sm">NASIRU RILWAN</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">Risk and Compliance</p>
+                    <p className="text-muted-foreground text-sm">EJIRO EKPEDE</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">General Manager</p>
+                    <p className="text-muted-foreground text-sm">NWOKOCHA GODSON</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <div className="bg-primary/10 p-2 rounded-lg">
+                    <Users className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-sm">Social Media Manager</p>
+                    <p className="text-muted-foreground text-sm">CHRISTABEL WARAD KWAIBE</p>
                   </div>
                 </div>
               </CardContent>
